@@ -13,3 +13,5 @@ guest_list.insert(0, "Aiden")
 guest_list.insert(3, "Amanda")
 guest_list.append("Bob")
 
+for guest in guest_list:
+    print(f"{guest} I would like to invite you to lunch")
